@@ -3,7 +3,7 @@ stages:
 - stage: BuildBackendServices
 
   pool:
-    vmImage: ubuntu-latest
+    vmImage: default
 
   jobs:
   - job: BuildDotnetBackend
